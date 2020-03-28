@@ -1,0 +1,30 @@
+.logo,.logo:active,.log:visited,.logo:hover,
+.navLink,.navLink:visited,.navLink:hover{
+    text-decoration: none;
+    color:#fff;
+    display:flex;
+    border-radius: 3px;
+}
+
+
+@media (min-width: 720px) {
+.logo{
+    margin-right:25px;
+}
+}
+
+@media (max-width: 450px) {
+.navLink,.navLink:visited,.navLink:hover{
+    color:#000;
+}
+}
+
+
+.pageNotFound{
+    padding-top: 25vh;
+}
+
+.toHomeLink{
+    text-decoration: none;
+    color:#fff;
+}
